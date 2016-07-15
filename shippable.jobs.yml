@@ -15,7 +15,7 @@ jobs:
         - script: pwd
         - script: ./GET/sample-script/sample-script/echo.sh
         
-  - name: script-piperunShw
+  - name: script-piperunShL
     type: runSh
     serial: true
     steps:
