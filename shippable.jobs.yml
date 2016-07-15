@@ -2,7 +2,7 @@ jobs:
   - name: ecsmanifestv1
     type: manifest
     steps:
-      - GET: triggertest1
+      #- GET: triggertest1
       - GET: new-imagenode2
       
   - name: script-piperunShv2
