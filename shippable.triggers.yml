@@ -2,7 +2,7 @@ triggers:
   - name: triggertest1
     type: trigger
     version:
-      message: 'n127jjj908'
+      message: 'n127jhjj908'
       
   #- name: triggertest2
   #  type: trigger
