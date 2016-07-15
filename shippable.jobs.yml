@@ -5,7 +5,7 @@ jobs:
       - GET: triggertest1
       - GET: new-imagenode2
       
-  - name: script-piperf301
+  - name: script-piperf305
     type: runSh
    # serial: true
     steps:
