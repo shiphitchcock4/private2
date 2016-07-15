@@ -1,11 +1,11 @@
 jobs:
-  - name: ecsmanifest908
+  - name: ecsmanifestg1
     type: manifest
     steps:
       - GET: triggertest1
       - GET: new-imagenode2
       
-  - name: script-piperf3ijk
+  - name: script-piperunShg2
     type: runSh
    # serial: true
     steps:
@@ -15,7 +15,7 @@ jobs:
         - script: pwd
         - script: ./GET/sample-script/sample-script/echo.sh
         
-  - name: script-piperunSht
+  - name: script-piperunShg3
     type: runSh
     serial: true
     steps:
