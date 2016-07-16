@@ -1,5 +1,5 @@
 triggers:
-  - name: triggertest1
+  - name: triggertest
     type: trigger
     version:
       message: 'test1'
