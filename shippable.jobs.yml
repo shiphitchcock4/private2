@@ -3,7 +3,7 @@ jobs:
    # type: manifest
   #  steps:
       #- GET: triggertest1
-      - GET: new-imagenode2
+    #  - GET: new-imagenode2
       
   - name: script-piperunShv2
     type: runSh
