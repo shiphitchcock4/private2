@@ -1,7 +1,7 @@
 jobs:
-  - name: ecsmanifestv1
-    type: manifest
-    steps:
+  #- name: ecsmanifestv1
+   # type: manifest
+  #  steps:
       #- GET: triggertest1
       - GET: new-imagenode2
       
