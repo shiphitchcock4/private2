@@ -1,8 +1,8 @@
 triggers:
   - name: triggertest
     type: trigger
-    version:
-      message: 'test1'
+    pointer:
+      counter: 137
       
   #- name: triggertest2
   #  type: trigger
