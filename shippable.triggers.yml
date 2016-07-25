@@ -2,7 +2,7 @@ triggers:
   - name: triggertest23
     type: trigger
     pointer:
-      counter: 17
+      counter: 19
       
   #- name: triggertest2
   #  type: trigger
