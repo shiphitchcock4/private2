@@ -1,5 +1,5 @@
 resources:
-  - name: sample-privatescript
+  - name: sample-privatescript1
     type: gitRepo
     integration: shiphitchcock4-github
     pointer:
