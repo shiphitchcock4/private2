@@ -10,7 +10,7 @@ jobs:
    # serial: true
     steps:
       - IN: sample-privatescript11
-      - IN: triggertest
+      - IN: triggertest23
       #- GET: triggertest
       - TASK:
         - script: pwd
