@@ -1,18 +1,18 @@
 resources:
-  - name: sample-script2
+  - name: sample-privatescript
     type: gitRepo
     integration: shiphitchcock4-github
     pointer:
-      sourceName: shiphitchcock4/sample-script
+      sourceName: shiphitchcock4/testprivate 
       branch: master
       
-  - name: resotest1
-    type: image
-    integration: ship4-docker
-    pointer:
-      sourceName: "shiphitchcock4/hitchcock4_sample_node"
-      isPull: false
-    initialVersion:
-       versionName: "latest"
+ #- name: resotest1
+  #  type: image
+   # integration: ship4-docker
+  #  pointer:
+   #   sourceName: "shiphitchcock4/hitchcock4_sample_node"
+    #  isPull: false
+    #initialVersion:
+     #  versionName: "latest"
       #tag: latest
  
