@@ -13,7 +13,7 @@ jobs:
       #- GET: triggertest
       - TASK:
         - script: pwd
-        - script: ./GET/testprivate/testprivate /echo.sh
+        - script: ./IN/testprivate/testprivate/echo.sh
         
   #- name: script-piperunShv3
    # type: runSh
