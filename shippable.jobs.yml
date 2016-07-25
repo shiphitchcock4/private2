@@ -5,16 +5,16 @@ jobs:
       #- GET: triggertest1
     #  - GET: new-imagenode2
       
-  - name: privatescript
+  - name: privatescript1
     type: runSh
    # serial: true
     steps:
-      - IN: sample-privatescript
+      - IN: sample-privatescript1
       - IN: triggertest
       #- GET: triggertest
       - TASK:
         - script: pwd
-        - script: ./IN/sample-privatescript/sample-privatescript/echo.sh
+        - script: ./IN/sample-privatescript1/sample-privatescript1/echo.sh
         
   #- name: script-piperunShv3
    # type: runSh
