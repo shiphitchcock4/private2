@@ -5,7 +5,7 @@ jobs:
       #- GET: triggertest1
     #  - GET: new-imagenode2
       
-  - name: privatescript11
+  - name: privatescript12
     type: runSh
    # serial: true
     steps:
